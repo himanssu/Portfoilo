@@ -1,0 +1,30 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        height: 14vh;
+    }
+
+    .menu-links a {
+        font-size: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+}
